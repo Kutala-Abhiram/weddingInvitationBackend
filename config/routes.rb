@@ -9,6 +9,7 @@ Rails.application.routes.draw do
       resources :blessings, only: [:create]
       get '/ping', to: 'trackings#ping_site'
       get '/clear_all_data0we24op', to: 'trackings#clear_data'
+      get '/tracking_count', to: 'trackings#t_count'
       resources :trackings, only: [:create]
     end
   end

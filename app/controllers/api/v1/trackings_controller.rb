@@ -24,4 +24,10 @@ class Api::V1::TrackingsController < ApplicationController
         after_tracking = Tracking.count
         render json: { before_blessings: before_blessings, after_blessings: after_blessings, before_tracking: before_tracking, after_tracking: after_tracking }
     end
+
+    def t_count
+        before_blessings = Blessing.count
+        before_tracking = Tracking.count
+        render json: { before_blessings: before_blessings, before_tracking: before_tracking }
+    end
 end
