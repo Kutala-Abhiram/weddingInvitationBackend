@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ipaddress: MyString
+  date: 2022-07-30 14:04:48
+  source: 1
+
+two:
+  ipaddress: MyString
+  date: 2022-07-30 14:04:48
+  source: 1

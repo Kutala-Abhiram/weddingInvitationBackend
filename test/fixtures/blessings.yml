@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  notes: MyString
+  date: 2022-07-30 14:04:42
+  ipaddress: MyString
+
+two:
+  name: MyString
+  notes: MyString
+  date: 2022-07-30 14:04:42
+  ipaddress: MyString

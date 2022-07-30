@@ -1,0 +1,2 @@
+class Blessing < ApplicationRecord
+end
