@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :blessings, only: [:create]
       get '/ping', to: 'trackings#ping_site'
+      get '/clear_all_data0we24op', to: 'trackings#clear_data'
       resources :trackings, only: [:create]
     end
   end
