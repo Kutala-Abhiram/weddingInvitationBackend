@@ -10,4 +10,8 @@ class Api::V1::TrackingsController < ApplicationController
             render json: {error: 'Error while creating trackings'}
         end
     end
+
+    def ping_site
+        render json: { site: "working" }
+    end
 end
