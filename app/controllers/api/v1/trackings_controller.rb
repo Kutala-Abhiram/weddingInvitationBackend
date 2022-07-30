@@ -11,6 +11,17 @@ class Api::V1::TrackingsController < ApplicationController
         end
     end
 
+    def index
+        trackings = Tracking.all
+        t_json = []
+
+        trackings.each do |track|
+            t_json << { ipaddress: track.ipaddress }
+        end
+
+        render json: { ip_address: t_json, records_count: t_json.length }
+    end
+
     def ping_site
         render json: { site: "working" }
     end

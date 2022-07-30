@@ -30,6 +30,8 @@ gem 'rack-cors'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+gem "devise"
+gem "omniauth-google-oauth2"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
